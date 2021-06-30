@@ -24,7 +24,7 @@ if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['role
         if ($result) 
         {
         	echo "successfull";
-        	header("Location: ../index.php");
+        	header("Location:index.php");
 
         }
         else 
@@ -36,6 +36,6 @@ if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['role
 }
 else 
 {
-	header("Location: ../register.php");
+	header("Location:register.php");
 }
 ?>
