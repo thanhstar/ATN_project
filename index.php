@@ -4,8 +4,10 @@ session_start();
    if (isset($_SESSION['username']) && isset($_SESSION['id'])) {   
 include('inc/header.php'); 
 include('inc/navbar.php');}
-
-include('inc/listsong.php');include('inc/scripts.php');
+?>
+<?php
+include('inc/listsong.php');
+include('inc/scripts.php');
 
 include('inc/footer.php');
 ?>
