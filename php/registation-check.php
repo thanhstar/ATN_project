@@ -1,6 +1,6 @@
 <?php  
 session_start();
-include "../db_conn.php";
+include "..\db_conn.php";
 
 if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['role'])) 
 {
@@ -24,18 +24,18 @@ if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['role
         if ($result) 
         {
         	echo "successfull";
-        	header("Location:index.php");
+        	header("Location:..\index.php");
 
         }
         else 
         {
-        	header("Location: ../register.php?");
+        	header("Location: ..\register.php?");
         	echo "fail";
         }
 	
 }
 else 
 {
-	header("Location:register.php");
+	header("Location:..\register.php");
 }
 ?>
