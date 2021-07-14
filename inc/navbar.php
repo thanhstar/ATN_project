@@ -48,7 +48,7 @@
                     </a>
                     <div class="nav__dropdown-collapse">
                         <div class="nav__dropdown-content">
-                            <a href="#" class="nav__dropdown-item"> <?=$_SESSION['name']?></a>
+<!--                             <a href="#" class="nav__dropdown-item"> <?=$_SESSION['name']?></a> -->
                             <a href="pay.php" class="nav__dropdown-item">Your cart</a>
                         </div>
                     </div>
